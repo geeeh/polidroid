@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/police"
+        android:title="@string/police"
+        android:visible="true"
+        android:icon="@drawable/ic_black_shield_shape"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/ambulance"
+        android:title="@string/ambulance"
+        android:visible="true"
+        android:icon="@drawable/ic_ambulance"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/towing"
+        android:title="@string/towing"
+        android:visible="true"
+        android:icon="@drawable/ic_tow_truck"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/fire"
+        android:title="@string/fire"
+        android:visible="true"
+        android:icon="@drawable/ic_fire_truck"
+        app:showAsAction="ifRoom"/>
+
+</menu>

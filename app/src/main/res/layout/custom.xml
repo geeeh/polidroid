@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="340dp"
+        android:layout_height="54dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/confirm_text"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <Button
+        android:id="@+id/sendbutton"
+        android:layout_width="179dp"
+        android:layout_height="54dp"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:text="@string/cancel"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <Button
+        android:id="@+id/cancelbutton"
+        android:layout_width="146dp"
+        android:layout_height="54dp"
+        android:layout_alignBaseline="@+id/sendbutton"
+        android:layout_alignBottom="@+id/sendbutton"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:background="@android:color/transparent"
+        android:text="@string/send"
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+
+</RelativeLayout>
